@@ -1,0 +1,2 @@
+#To manage consistency in line endings in different OS
+node_modules/**/*.ts text eol=lf
