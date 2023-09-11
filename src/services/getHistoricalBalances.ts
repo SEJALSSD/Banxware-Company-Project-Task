@@ -1,5 +1,4 @@
-// This is just an example, it is not expected from you to keep this function
-// signature or even the file name. Feel free to change whatever you like.
+// Logic for making HTTP Requests to API and processing data.
 export function getHistoricalBalance() {
   return { hello: "world" };
 }
