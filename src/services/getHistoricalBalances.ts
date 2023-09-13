@@ -69,7 +69,6 @@ const calculateDailyBalances = async (
 
 
 // Express route handler for /historical-balances
-// Express route handler for /historical-balances
 export const getHistoricalBalance = async (req: Request, res: Response) => {
   const { from, to, sort } = req.query;
 

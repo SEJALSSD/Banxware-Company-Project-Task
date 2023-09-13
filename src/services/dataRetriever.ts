@@ -22,7 +22,7 @@ export const fetchDataFromDataProvider = async (): Promise<any> => {
   }
 };
 
-// Call the function to fetch data from the Data Provider API and log the response
+// Call the function to fetch data from the Data Provider API and log the response done to check whether data is getting fetched or not.
 fetchDataFromDataProvider()
   .then(() => {
     console.log('Data fetched successfully.');
