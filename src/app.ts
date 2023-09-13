@@ -7,9 +7,7 @@ import { getHistoricalBalance } from "./services/getHistoricalBalances";
 const app = express();
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
-app.get("/historical-balances", (req, res) => {
-  const historicalBalance = getHistoricalBalance();
-  return res.json(historicalBalance);
-});
+app.get("/historical-balances", getHistoricalBalance);
 
 export default app;
+
